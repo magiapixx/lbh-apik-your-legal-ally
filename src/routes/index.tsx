@@ -529,12 +529,17 @@ function SupportSection() {
 
 function ContactSection() {
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
-  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [errors, setErrors] = useState<{
+    name?: string;
+    phone?: string;
+    message?: string;
+  }>({});
+
   const [sent, setSent] = useState(false);
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    const errs: Record<string, string> = {};
+    const errs: { name?: string; phone?: string; message?: string } = {};
     if (!form.name.trim()) {
       errs.name = "Tulis nama kamu di kolom ini — boleh nama panggilan.";
     }
