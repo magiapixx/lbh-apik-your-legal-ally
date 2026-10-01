@@ -365,7 +365,7 @@ function ServicesSection() {
         </Reveal>
 
         <div className="mt-14 grid gap-5 md:grid-cols-3">
-          <Reveal className="md:col-span-2 md:row-span-2">
+          <Reveal className="md:col-span-2">
             <div className={`${cardCls} flex h-full flex-col`}>
               <div className="flex h-10 w-10 items-center justify-center rounded-sm bg-secondary text-taupe">
                 <MessageCircle size={20} />
