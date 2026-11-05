@@ -1,6 +1,12 @@
-# LBH APIK: Your Legal Ally
+# LBH APIK Yogyakarta — Sahabat Hukum Perempuan dan Anak
 
-i want to create this website for woman specialized law firm called LBH APIK Yogyakarta, i attach copywriting for the website content
+Website LBH APIK Yogyakarta, lembaga bantuan hukum yang mendampingi perempuan
+dan anak korban kekerasan serta ketidakadilan. Layanan diberikan secara gratis,
+rahasia, dan tanpa menghakimi.
+
+## Tampilan Halaman Home
+
+![Screenshot halaman home LBH APIK Yogyakarta](./public/homepage.png)
 
 This project was built with [Lovable](https://lovable.dev).
 
@@ -14,11 +20,9 @@ Continue developing this project in the [Lovable editor](https://lovable.dev/pro
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Jalankan project secara lokal dengan Bun:
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev
 ```
